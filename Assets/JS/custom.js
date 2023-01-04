@@ -23,3 +23,14 @@ overlay.addEventListener("click", () => {
   overlay.classList.add("hidden"); 
   body.classList.remove("overflow-hidden"); 
 });
+
+/* swiper */
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
